@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="logo.png">
-    <title>Posttest 2 Pemrograman WEB</title>
+    <title>UTS Pemrograman WEB</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>

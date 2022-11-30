@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Concert+One&family=Dosis:wght@500&family=DynaPuff&family=PT+Sans+Caption:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* font-family: 'Poppins'; */
+}
+body{
+    /* font-family: 'Poppins'; */
+    background: #fafafa;
+}
+
+
+/* LIHAT */
+.bigboxbos {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.bigbox {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7%;
+}
+
+table {
+     z-index: 2;
+     left: 0%;
+     top: 0px;
+     border-collapse: collapse;
+     border-spacing: 0;
+     overflow: hidden;
+     width: 100%;
+    }
+    
+td , th{
+    padding: 15px 20px;
+    text-align: center;        
+}
+       
+th{
+    background-color: #54506c75;
+    color: #ebe0cd;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;   
+}
+       
+tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Dosis', sans-serif;
+    color:#54506c75;
+}
+       
+tr:nth-child(even){
+    background-color: #eeeeee;
+}
+    
+.order {
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    top: 80px;
+    left: 300px;
+}
+    
+
+
+.head {
+    font-size: 130%;
+}
+
+.tabel2, .tabel3 {
+    padding-top: 30px;
+}

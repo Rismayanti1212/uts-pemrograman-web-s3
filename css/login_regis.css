@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fira+Sans:ital,wght@1,200&family=Kanit:ital,wght@1,200;1,900&family=Lobster&family=Noto+Sans+Mono:wght@300&family=Passions+Conflict&family=Permanent+Marker&family=Roboto&family=Shadows+Into+Light&display=swap');
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+}
+  
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(30, 4, 7, 0.1),rgba(30, 4, 7, 0.14)), url(https://i.pinimg.com/564x/78/5f/7b/785f7b0a296b902c4c04da162cae56a7.jpg);
+}
+
+.container {
+    width: 30%;
+    padding: 5%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 25px;
+
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(65, 64, 64, 0.663);
+    font-size: 30px;
+}
+
+.form {
+    padding-top: 10px;
+}
+
+.input {
+    margin: 10px 0px;
+    padding: 10px 5px;
+    width: 95%;
+    border-radius: 50px;
+    border: 2px solid rgba(128, 128, 128, 0.626);
+}
+
+.submit {
+    margin-top: 10px;
+    padding: 10px;
+    width: 97%;
+    border: 1px solid;
+    border-radius: 50px;
+
+    font-size: medium;
+    cursor: pointer;
+    background-color: grey;
+    color: bisque;
+}
+
+.submit:hover {
+    background-color: grey;
+    
+}
+
+.regis a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 13%;
+}
+
+.login a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login .input {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-left: 10px;
+
+    background-color: rgb(198, 198, 198);
+    color: rgb(59, 59, 59);
+}
+
+.login h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    block-size: 1.25em;
+    display: inline-block;
+    inline-size: 1.25em;
+    line-height: 1.25em;
+    margin-right: 0.625em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .icon--info {
+    background-color: #e5e5e5;
+    border-radius: 50%;
+  }
+
+  p{
+    color : rgba(65, 64, 64, 0.663);
+  }

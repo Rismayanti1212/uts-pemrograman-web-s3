@@ -204,7 +204,7 @@ $result = mysqli_query($db, "SELECT * FROM booking_table ORDER BY nama ASC");
       </nav>
     </div><!-- End Page Title -->
 
-    <div><h1 class="text-h1" align = "center">PREVIEW ORDER</h1>
+    <div><h1 class="text-h1" align = "center">PREVIEW RESERVASI</h1>
 <div class = "box-preview">
 <table class = "table" border = 5 align = "center">
     <tr>
